@@ -1,0 +1,5 @@
+new_project: VP531_H5313_BQ_5302G
+sagereal_target_project: k80_bsp
+user_mode: yes
+CUSTOM_HAL_MAIN_IMGSENSOR: gc5025_mipi_raw
+CUSTOM_HAL_SUB_IMGSENSOR: gc2385_mipi_raw

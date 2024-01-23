@@ -1,0 +1,70 @@
+*SW Version&&
+VP531_H5313_BQ_5302G_V03_20181012_MP
+&&
+**Platform&&
+8.1.0
+&&
+**Type&&
+user
+&&
+**单双卡&&
+双卡
+&&
+**Build time&&
+Fri Oct 12 18:23:40 CST 2018
+&&
+**Fingerprint&&
+BQru/BQru-5302G/BQru-5302G:8.1.0/O11019/1539339977:user/release-keys
+&&
+**Security Patch&&
+2018-09-05
+&&
+**Clientid&&
+ro.com.google.clientidbase=android-nlgsm
+&&
+**first api level&&
+
+&&
+**GMS Version&&
+8.1_201808.go
+&&
+**OTP&&
+no
+&&
+**TEE&&
+no
+&&
+**豆荚TEE&&
+no
+&&
+**Default Language&&
+ru-RU
+&&
+**Adups app&&
+yes
+**UTC&&
+VP531_H5313_BQ_5302G_V03_20181012_MP
+&&
+&&
+**Widewine&&
+yes
+&&
+**modem&&
+VP531_BAND18
+&&
+**UTC&&
+1539339820
+&&
+**Incremental&&
+1539339977
+&&
+**Kernel Version&&
+"#2 SMP PREEMPT Fri Oct 12 18:30:04 CST 2018"
+&&
+**Flash memory&&
+#define CS_PART_NUMBER[0]       H9TQ64A8GTCCUR_KUM
+#define CS_PART_NUMBER[1]       KMFNX0012M_B214
+#define CS_PART_NUMBER[2]       KMFN60012M_B214
+#define CS_PART_NUMBER[3]       08EMCP08_EL3DT227
+#define CS_PART_NUMBER[4]       NCEPNA6M4-0808
+&&
