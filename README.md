@@ -1,4 +1,4 @@
-# VYPER-LP - Neffos-C5-Plus - VP531_H5313 - BQ_5302G
+# VYPER-LP - Neffos-C5-Plus - VP531_H5313 - BQ_5302G   (same phone ) (clone)
 
 ## Known information:
 | Subsystem | Driver name | Availability | Working |
