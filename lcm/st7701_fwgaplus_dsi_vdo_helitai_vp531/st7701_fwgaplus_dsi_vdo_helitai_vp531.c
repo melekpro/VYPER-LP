@@ -81,7 +81,7 @@ static struct LCM_setting_table lcm_initialization_setting[] = {
     {0XFF, 5, {0X77,0X01,0X00,0X00,0X00}},
     {0X35, 1, {0X00}},
     {0X29, 0, {}},
-    {REGFLAG_END_OF_TABLE_NEW, 0X00, {}} // Change to a unique value
+    {REGFLAG_END_OF_TABLE, 0X00, {}} 
 };
 
 static struct LCM_setting_table lcm_suspend_setting[] = {
