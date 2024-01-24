@@ -4,3 +4,5 @@
 | Subsystem | Driver name | Availability | Working |
 |-----------|-------------|--------------|---------|
 | LCM driver | `st7701_fwgaplus_dsi_vdo_helitai_vp531` | Yes | NO |
+| LCM driver | `st7701_fwgaplus_dsi_vdo_dezhixin_vp531` | NO | NO |
+|-----------|-------------|--------------|---------|
