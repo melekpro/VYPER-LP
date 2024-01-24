@@ -18,8 +18,8 @@
 #define UDELAY(n) (lcm_util.udelay(n))
 #define MDELAY(n) (lcm_util.mdelay(n))
 
-#define REGFLAG_DELAY 			0xFE0F
-#define REGFLAG_END_OF_TABLE 	0xFF0F
+#define REGFLAG_DELAY 			0xFE
+#define REGFLAG_END_OF_TABLE 	0XFF
 
 /* Local Functions */
 #define dsi_set_cmdq_V3(para_tbl,size,force_update)         lcm_util.dsi_set_cmdq_V3(para_tbl,size,force_update)
@@ -94,20 +94,23 @@ static struct LCM_setting_table lcm_suspend_setting[] = {
 
 static void push_table(struct LCM_setting_table *table, unsigned int count, unsigned char force_update)
 {
-	int i;
-	for(i = 0; i < count; i++)
-	{
-		switch (table[i].cmd) {
-			case REGFLAG_DELAY :
-			MDELAY(table[i].count);
-			break;
-			case REGFLAG_END_OF_TABLE :
-			break;
-			default:
-			dsi_set_cmdq_V2(table[i].cmd, table[i].count, table[i].para_list, force_update);
-		}
-	}
+    int i;
+    for (i = 0; i < count; i++)
+    {
+        switch (table[i].cmd)
+        {
+        case REGFLAG_DELAY:
+            MDELAY(table[i].count);
+            break;
+        case REGFLAG_END_OF_TABLE:
+            break;
+        default:
+            dsi_set_cmdq_V2(table[i].cmd, table[i].count, table[i].para_list, force_update);
+            break;
+        }
+    }
 }
+
 
 static void lcm_set_util_funcs(const LCM_UTIL_FUNCS *util)
 {
